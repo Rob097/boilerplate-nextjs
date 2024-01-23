@@ -1,0 +1,49 @@
+{
+  "name": "application",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "next-sitemap",
+    "start": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@monaco-editor/react": "^4.2.1",
+    "@mui/icons-material": "latest",
+    "@mui/lab": "latest",
+    "@mui/material": "latest",
+    "@mui/x-charts": "^6.18.1",
+    "@vercel/analytics": "^1.1.1",
+    "@vercel/speed-insights": "^1.0.2",
+    "lodash": "^4.17.21",
+    "next": "latest",
+    "next-i18next": "latest",
+    "next-sitemap": "^4.2.3",
+    "notistack": "^3.0.1",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-error-boundary": "^4.0.11",
+    "react-google-recaptcha-hook": "^1.1.0",
+    "react-hook-form": "^7.44.3",
+    "react-jsx-parser": "^1.29.0",
+    "react-promise-tracker": "^2.1.1",
+    "react-use-draggable-scroll": "^0.4.7",
+    "sass": "^1.63.6",
+    "swr": "^2.2.2",
+    "tailwindcss-fluid-type": "^2.0.3",
+    "chroma-js": "^2.4.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "tailwindcss": "^3.3.2",
+    "typescript": "5.3.3"
+  }
+}

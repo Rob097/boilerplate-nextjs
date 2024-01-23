@@ -1,0 +1,20 @@
+$--screen-xxl: theme('screens.2xl');
+$--screen-xl: theme('screens.xl');
+$--screen-lg: theme('screens.lg');
+$--screen-md: theme('screens.md');
+$--screen-sm: theme('screens.sm');
+$--background-secondary: theme('colors.background.secondary');
+
+#storiesNavbar::after {
+    display: block;
+    background: $--background-secondary;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-inline: auto;
+    width: 98vw;
+    bottom: 0;
+    transform: translateX(-50%);
+    z-index: -1;
+}
